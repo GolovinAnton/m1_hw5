@@ -1,0 +1,98 @@
+
+html {
+	height: 100%;
+}
+html, body {
+	min-height: 100%;
+}
+ul,
+ a {
+	text-decoration: none;
+	list-style-type: none;
+	color: #c2c2c2;
+
+}
+body {
+	background-color: #F1F1F1; 
+	font-family: Arial, sans-serif;
+	color: #c2c2c2;
+}
+.huge-search {
+	padding-top: 40px;
+	font-size: 80px;
+	font-weight: bold;
+	background: transparent;
+	outline: none;
+	width: 80%;
+	border: none;
+	color: #EC5A62;
+}
+
+input::placeholder {
+	color: #c2c2c2;
+
+}
+.bh {
+	margin: 0 auto;
+	position: relative;
+	width: 80%;
+}
+.submit-huge-search {
+	outline: none;
+}
+button {
+	position: absolute;
+	width: 80px;
+	height: 80px;
+	right: 0;
+	top: 40%;
+	background: transparent;
+	border: none;
+}
+
+
+
+.column {
+	display: inline-block;
+	font-size: 10px;
+	width:25%;                          
+	padding: 0;
+	margin: 0;
+}
+ul {
+	padding: 0;
+	margin: 0;
+}
+.column-name {
+	width: 30%;
+	font-size: 17px;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	font-weight: 800;
+	color: #c2c2c2;
+}
+.column a {
+	padding: 5px;
+	margin: 5px 0;
+	display: block;
+	border-radius: 5px;
+	background-color: rgba(118, 117, 128, 0.05);
+
+	
+
+	
+}
+.column a:hover {
+	background-color: rgba(118, 117, 128, 0.1);
+	color: #EC5A62;	
+}
+.column .circle a img {
+	
+	border-radius: 100px;
+}
+img + .vr {
+	vertical-align: middle;
+	display: inline-block;
+}
+
+
