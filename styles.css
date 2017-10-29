@@ -1,4 +1,11 @@
 
+*{
+	box-sizing: border-box;
+	transition: all 0.1s linear;
+}
+
+
+
 html {
 	height: 100%;
 }
@@ -44,18 +51,22 @@ button {
 	position: absolute;
 	width: 80px;
 	height: 80px;
-	right: 0;
+	/*right: 0;*/
 	top: 40%;
 	background: transparent;
 	border: none;
 }
-
+button:hover,
+button:focus {
+	width: 90px;
+	height: 90px;
+}
 
 
 .column {
 	display: inline-block;
 	font-size: 10px;
-	width:25%;                          
+	width:30%;                          
 	padding: 0;
 	margin: 0;
 }
@@ -77,11 +88,11 @@ ul {
 	display: block;
 	border-radius: 5px;
 	background-color: rgba(118, 117, 128, 0.05);
-
-	
-
-	
 }
+main {
+	width: 80%;
+	margin: 0 auto;
+}	
 .column a:hover {
 	background-color: rgba(118, 117, 128, 0.1);
 	color: #EC5A62;	
@@ -91,8 +102,13 @@ ul {
 	border-radius: 100px;
 }
 img + .vr {
-	vertical-align: middle;
+	
 	display: inline-block;
+	
+}
+li img {
+	width: 50px;
+	vertical-align: middle;
 }
 
 
